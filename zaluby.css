@@ -1,0 +1,45 @@
+/* CSS Document */
+* {box-sizing: border-box;}
+body{
+	background: url(milky-way-2695569_1280.jpg) no-repeat fixed;
+	background-size:100%; font-size: 1em; 
+    }
+
+H1{flex: 45%;
+    font-size:50px;
+    color:rgb(255,255,255);
+    display: flex; flex-flow:row wrap; justify-content:center;}
+
+main{
+	position:absolute;
+	top:15%; 	left:1vw;	width:99vw;	height:80%;
+	overflow:auto ;	background-color:rgb(204,255,255);
+    font-size:30px;
+    }
+h2{
+font-style:oblique;
+}
+main p{
+font-size:20px;
+font-style: italic;
+}
+#vcs{
+position:relative;
+bottom:-530px;
+left:-900px;
+}
+#cs{
+position:relative;
+bottom:-75px;}
+div{
+display: flex; flex-flow:row wrap; justify-content:spaced-evenly;
+}
+
+img{
+display: flex; flex-flow:row wrap; justify-content:spaced-evenly;
+}
+h3{
+font-size:25px;
+font-style:oblique;
+display: flex; flex-flow:row wrap; justify-content:spaced-evenly;
+}
